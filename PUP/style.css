@@ -1,0 +1,146 @@
+body {
+	color: #f7ced7ff;
+	font-family: "Montserrat", serif;
+	margin: 0;
+	text-align: center;
+}
+/* Header styles */
+.top-container h2 {
+	font-weight: normal;
+}
+.top-container {
+	background-color: #F3B6B6;
+	padding-top: 100px;
+	position: relative;
+}
+.top-cloud {
+	animation: loop-reverse 20s linear infinite;
+	position: absolute;
+	top: 20px;
+	width: 10%;
+}
+.bird {
+	position: relative;
+	width: 10%;
+	z-index: 5;
+}
+h1 {
+	color: #915858;
+	font-family: "Trattatello", cursive;
+	font-size: 5.625rem; /* 90px */
+	font-weight: 800;
+	margin: 15px auto 0;
+}
+h2 {
+	color: #30443c;
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+.web {
+	color: #6d6875;
+	
+}
+.bottom-cloud {
+	animation: loop 20s linear infinite;
+	position: absolute;
+	right: 25%;
+	width: 10%;
+}
+.mountain {
+	padding-top: 30px;
+	width: 30%;
+}
+h3 {
+	color: #915858;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+a {
+	color: #915858;
+	font-family: "Montserrat", sans-serif;
+	margin: 8px 16px;
+	text-decoration: none;
+	transition: color 0.2s ease-in-out;
+}
+a:hover {
+	color: #fff;
+}
+p {
+	line-height: 2;
+}
+
+/* main styling */
+.middle-container {
+	padding: 100px 0;
+}
+.profile-picture {
+	margin-bottom: 30px;
+	width: 20%;
+}
+.intro {
+	margin: auto;
+	text-align: justify;
+	width: 30%;
+}
+.profile-picture {
+	border-radius: 50%;
+}
+.skill-row {
+	margin: 100px auto;
+	text-align: left;
+	width: 50%;
+}
+.code-description,
+.cube-description {
+	text-align: justify;
+}
+.code-image {
+	float: left;
+	margin-right: 36px;
+	width: 15%;
+}
+
+.cube-image {
+	float: right;
+	margin-left: 30px;
+	width: 25%;
+}
+
+/* .code-description{
+	clear: left;
+}
+.chilli-description{
+	clear: right;
+} */
+
+.contact-message {
+	margin: 40px auto 60px;
+	width: 25%;
+}
+.pointer {
+	animation: floating 0.9s linear infinite;
+	font-size: 25px;
+	position: relative;
+}
+/* button styles */
+
+
+
+
+/* footer style */
+.bottom-container {
+	background-color: #F3B6B6;
+	padding: 20px 0 20px;
+}
+.footer-link{
+	font-size: 1.7rem;
+}
+.copyright {
+	color: #eaf6f6;
+	font-size: 0.75rem;
+	padding: 20px 0;
+}
+
+
